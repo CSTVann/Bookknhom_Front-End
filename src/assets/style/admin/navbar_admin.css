@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.container-admin-navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 220px;
+    background-color: #f4f4ff;
+    border-right: 1px solid #ddd;
+    z-index: 100;
+    padding-top: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, width 0.3s ease;
+}
+
+.container-admin-navbar .logo-section {
+    padding: 0 20px 20px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-admin-navbar .logo-section h3 {
+    margin: 0;
+    color: #6251DD;
+    font-size: 18px;
+}
+
+.container-admin-navbar button {
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    border-bottom: 1px solid #eee;
+    background-color: transparent;
+    color: #333;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 20px;
+    transition: all 0.2s ease;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.container-admin-navbar button i {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.container-admin-navbar button:hover {
+    background-color: #EF6B4A;
+    color: white;
+}
+
+.container-admin-navbar .logout-btn {
+    margin-top: auto;
+    margin-bottom: 20px;
+    background-color: #f8f9fa;
+    color: #dc3545;
+}
+
+.container-admin-navbar .logout-btn:hover {
+    background-color: #dc3545;
+    color: white;
+}
+
+.admin-page-content {
+    margin-left: 220px;
+    padding: 20px;
+    transition: margin-left 0.3s ease;
+}
+
+.navbar-toggle {
+    display: none;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 101;
+    background-color: #6251DD;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 991px) {
+    .navbar-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .container-admin-navbar {
+        transform: translateX(-100%);
+    }
+    
+    .container-admin-navbar.show {
+        transform: translateX(0);
+    }
+    
+    .admin-page-content {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container-admin-navbar {
+        width: 80%;
+        max-width: 280px;
+    }
+    
+    .container-admin-navbar button {
+        font-size: 14px;
+    }
+}
+
+/* When sidebar is collapsed but visible */
+.container-admin-navbar.collapsed {
+    width: 60px;
+}
+
+.container-admin-navbar.collapsed button {
+    padding-left: 0;
+    justify-content: center;
+}
+
+.container-admin-navbar.collapsed button span {
+    display: none;
+}
+
+.container-admin-navbar.collapsed button i {
+    margin-right: 0;
+    font-size: 20px;
+}
+
+.container-admin-navbar.collapsed .logo-section h3 {
+    display: none;
+}
+
+.container-admin-navbar .logo-section .collapse-btn {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #6251DD;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    padding: 0;
+    margin: 0;
+}
+
+.container-admin-navbar .logo-section .collapse-btn:hover {
+    background-color: #6251DD;
+    color: white;
+}
+
+.container-admin-navbar.collapsed .logo-section .collapse-btn {
+    transform: rotate(180deg);
+}

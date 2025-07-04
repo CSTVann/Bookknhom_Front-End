@@ -1,0 +1,564 @@
+.exchange-container {
+    margin: 0 10%;
+    * {
+        font-family: Manrope;
+        margin: 0;
+        padding: 0;
+    }
+    .empty-container {
+        margin: 4%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .image-empty {
+            width: 20vw;
+            height: 25vh;
+        }
+        .empty {
+            color: #CECECE;
+        }
+    }
+    .exchange-header {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        a .back-icon {
+            display: flex;
+            align-items: center;
+            width: 20px;
+            height: 20px;
+        }
+        .back-to-home{
+            font-size: 24px;
+            font-weight: 700;
+            margin: 0;
+        }
+    }
+    .exchange-contain {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .exchange-title {
+            margin: 3% 0;
+            font-size: 30px;
+            font-weight: 600;
+        }
+        .container-swipe-card {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            .card-book-swipe {
+                border-radius: 5px;
+                background-color: rgba(0, 0, 0, 0.05);;
+                padding: 20px 30px;
+                .cards {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    width: 100%;
+                    .swape-cmp {
+                        width: 60px;
+                        height: 60px;
+                    }
+                    .card1, .card2 {
+                        border-radius: 5px;
+                        width: 50%;
+                        height: 30vh;
+                        display: flex;
+                        background-color: rgba(0, 0, 0, 0.10);
+                        padding: 10px 20px;
+                        gap: 20px;
+                        .img-pf {
+                            width: 30%;
+                            padding: 5px;
+                            border-radius: 10px;
+                        }
+                        .box-detail {
+                            width: 70%;
+                            .name-pf {
+                                color: #000;
+                                font-size: 24px;
+                                font-weight: 600;
+                                margin: 0;
+                            }
+                            .value-name {
+                                color: rgba(0, 0, 0, 0.60);
+                                font-size: 20px;
+                                font-weight: 600;
+                                margin: 1% 0;
+                            }
+                            .book-detail {
+                                color: rgba(0, 0, 0, 0.60);
+                                font-size: 18px;
+                                font-weight: 600;
+                                height: 43%;
+                                margin: 0;
+                            }
+                            .user-name {
+                                color: rgba(0, 0, 0, 0.60);
+                                font-size: 20px;
+                                font-weight: 600;
+                                margin-top: 3%;
+                            }
+                        }
+                    }
+                }
+                .below-card {
+                    display: flex;
+                    .left-item {
+                        width: 50%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        .date {
+                            color: rgba(0, 0, 0, 0.60);
+                            font-size: 18px;
+                            font-weight: 600;
+                            margin: 0;
+                        }
+                        .chat {
+                            color: rgba(0, 0, 0, 0.60);
+                            font-size: 18px;
+                            font-weight: 600;
+                            margin: 0;
+                        }
+                    }
+                    .right-item {
+                        width: 50%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: end;
+                        .status {
+                            display: flex;
+                            align-items: center;
+                            color: #000;
+                            font-size: 16px;
+                            font-weight: 600;
+                            gap: 5px;
+                            margin: 1.5% 0;
+                            .circle {
+                                display: inline-block;
+                                width: 1.7vw;
+                                height: 3vh;
+                                border-radius: 50%;
+                                margin-right: 5px;
+                            }
+                            .green {
+                                background-color: rgb(5, 221, 5);
+                            }
+                            
+                            .red {
+                                background-color: red;
+                            }
+                            
+                            .yellow {
+                                background-color: yellow;
+                            }
+                        }
+                        .btn-ar {
+                            display: flex;
+                            gap: 20px;
+                            .btn-reject, .btn-accept {
+                                display: flex;
+                                align-items: center;
+                                cursor: pointer;
+                                border-radius: 5px;
+                                font-size: 20px;
+                                font-weight: 300;
+                                border: 2px solid #EF6B4A;
+                                padding: 5px 20px;
+                            }
+                            .btn-reject {
+                                color: #EF6B4A;
+                            }
+                            .btn-accept {
+                                color: #fff;
+                                background-color: #EF6B4A;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1280px) {
+    .exchange-container {
+        .exchange-header {
+            margin-top: 35px;
+            gap: 7px;
+            a .back-icon {
+                width: 14px;
+                height: 14px;
+            }
+            .back-to-home {
+                font-size: 16px;
+            }
+        }
+        .exchange-contain {
+            .exchange-title {
+                font-size: 16px;
+            }
+            .container-swipe-card {
+                gap: 35px;
+                .card-book-swipe {
+                    padding: 14px 21px;
+                    .cards {
+                        gap: 5px;
+                        .swape-cmp {
+                            width: 40px;
+                            height: 40px;
+                        }
+                        .card1, .card2 {
+                            height: 21vh;
+                            padding: 7px 14px;
+                            gap: 14px;
+                            .img-pf {
+                                padding: 3.5px;
+                            }
+                            .box-detail {
+                                .name-pf {
+                                    font-size: 16.8px;
+                                }
+                                .value-name {
+                                    font-size: 14px;
+                                }
+                                .book-detail {
+                                    font-size: 12.6px;
+                                }
+                                .user-name {
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+                    .below-card {
+                        .left-item {
+                            .date {
+                                font-size: 12.6px;
+                            }
+                            .chat {
+                                font-size: 12.6px;
+                            }
+                        }
+                        .right-item {
+                            .status {
+                                font-size: 11.2px;
+                            }
+                            .btn-ar {
+                                gap: 14px;
+                                .btn-reject, .btn-accept {
+                                    font-size: 14px;
+                                    padding: 4px 14px;
+                                }
+                            }
+                        }
+                    
+                    }
+                }
+            }
+        
+        }
+    }
+}
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .exchange-container {
+        .exchange-header {
+            margin-top: 25px;
+            gap: 5px;
+            a .back-icon {
+                width: 12px;
+                height: 12px;
+            }
+            .back-to-home {
+                font-size: 12px;
+            }
+        }
+        .exchange-contain {
+            .exchange-title {
+                font-size: 12px;
+            }
+            .container-swipe-card {
+                gap: 25px;
+                .card-book-swipe {
+                    padding: 14px 21px;
+                    .cards {
+                        gap: 5px;
+                        .swape-cmp {
+                            width: 30px;
+                            height: 30px;
+                        }
+                        .card1, .card2 {
+                            height: 15vh;
+                            padding: 5px 10px;
+                            gap: 10px;
+                            .img-pf {
+                                padding: 2.5px;
+                                border-radius: 8px;
+                            }
+                            .box-detail {
+                                .name-pf {
+                                    font-size: 12px;
+                                }
+                                .value-name {
+                                    font-size: 12px;
+                                }
+                                .book-detail {
+                                    font-size: 9px;
+                                }
+                                .user-name {
+                                    font-size: 10px;
+                                }
+                            }
+                        }
+                    }
+                    .below-card {
+                        .left-item {
+                            .date {
+                                font-size: 9px;
+                            }
+                            .chat {
+                                font-size: 9px;
+                            }
+                        }
+                        .right-item {
+                            .status {
+                                font-size: 8px;
+                            }
+                            .btn-ar {
+                                gap: 10px;
+                                .btn-reject, .btn-accept {
+                                    font-size: 10px;
+                                    border-radius: 2.5px;
+                                    border: 1px solid #EF6B4A;
+                                    padding: 2.5px 10px;
+                                }
+                            }
+                        }
+                    
+                    }
+                }
+            }
+        
+        }
+    }
+}
+@media screen and (min-width:568px) and (max-width:767px) {
+    .exchange-container {
+        .exchange-header {
+            margin-top: 20px;
+            gap: 5px;
+            a .back-icon {
+                width: 12px;
+                height: 12px;
+            }
+            .back-to-home {
+                font-size: 10px;
+            }
+        }
+        .exchange-contain {
+            .exchange-title {
+                font-size: 10px;
+            }
+            .container-swipe-card {
+                gap: 20px;
+                .card-book-swipe {
+                    border-radius: 3px;
+                    padding: 10px 15px;
+                    .cards {
+                        gap: 5px;
+                        .swape-cmp {
+                            width: 20px;
+                            height: 20px;
+                        }
+                        .card1, .card2 {
+                            height: 12vh;
+                            border-radius: 3px;
+                            padding: 5px 10px;
+                            gap: 10px;
+                            .img-pf {
+                                padding: 2.5px;
+                                border-radius: 6px;
+                            }
+                            .box-detail {
+                                .name-pf {
+                                    font-size: 8px;
+                                }
+                                .value-name {
+                                    font-size: 8px;
+                                }
+                                .book-detail {
+                                    font-size: 6px;
+                                }
+                                .user-name {
+                                    font-size: 7px;
+                                }
+                            }
+                        }
+                    }
+                    .below-card {
+                        .left-item {
+                            .date {
+                                font-size: 6px;
+                            }
+                            .chat {
+                                font-size: 6px;
+                            }
+                        }
+                        .right-item {
+                            .status {
+                                font-size: 5px;
+                            }
+                            .btn-ar {
+                                gap: 5px;
+                                .btn-reject, .btn-accept {
+                                    font-size: 7px;
+                                    border-radius: 2.5px;
+                                    border: 1px solid #EF6B4A;
+                                    padding: 2.5px 10px;
+                                }
+                            }
+                        }
+                    
+                    }
+                }
+            }
+        
+        }
+    }
+}
+@media screen and (min-width:375px) and (max-width:567px) {
+    .exchange-container {
+        .exchange-header {
+            margin-top: 12.5px;
+            gap: 2.5px;
+            a .back-icon {
+                width: 5px;
+                height: 5px;
+            }
+            .back-to-home {
+                font-size: 6px;
+            }
+        }
+        .exchange-contain {
+            .exchange-title {
+                font-size: 6px;
+            }
+            .container-swipe-card {
+                gap: 12.5px;
+                .card-book-swipe {
+                    border-radius: 2.5px;
+                    padding: 5px 7.5px;
+                    .cards {
+                        gap: 2.5px;
+                        .swape-cmp {
+                            width: 10px;
+                            height: 10px;
+                        }
+                        .card1, .card2 {
+                            height: 7.5vh;
+                            border-radius: 2.5px;
+                            padding: 2.5px 5px;
+                            gap: 5px;
+                            .img-pf {
+                                padding: 1.25px;
+                                border-radius: 3px;
+                            }
+                            .box-detail {
+                                .name-pf {
+                                    font-size: 6px;
+                                }
+                                .value-name {
+                                    font-size: 5px;
+                                }
+                                .book-detail {
+                                    font-size: 4px;
+                                }
+                                .user-name {
+                                    font-size: 4px;
+                                }
+                            }
+                        }
+                    }
+                    .below-card {
+                        .left-item {
+                            .date {
+                                font-size: 4px;
+                            }
+                            .chat {
+                                font-size: 4px;
+                            }
+                        }
+                        .right-item {
+                            .status {
+                                font-size: 3px;
+                            }
+                            .btn-ar {
+                                gap: 2.5px;
+                                .btn-reject, .btn-accept {
+                                    font-size: 4px;
+                                    border-radius: 1px;
+                                    border: 1px solid #EF6B4A;
+                                    padding: 1px 5px;
+                                }
+                            }
+                        }
+                    
+                    }
+                }
+            }
+        
+        }
+    }
+}
+
+/* @media screen and (min-width:1280px) and (max-width:1440px) {
+    .exchange-container{
+        .exchange-header {
+            gap: 9px;
+            .h1 {
+                font-size: 5px;
+            }
+        }
+        .exchange-contain {
+            .exchange-title {
+                font-size: 20px;
+            }
+            .container-swipe-card {
+                gap: 45px;
+                .card-book-swipe {
+                    padding: 18px 27px;
+                    .cards {
+                        gap: 18px;
+                        .card1, .card2 {
+                            height: 30vh;
+                            padding: 9px 18px;
+                            gap: 18px;
+                            .img-pf {
+                                padding: 4.5px;
+                            }
+                            .box-detail {
+                                .name-pf {
+                                    font-size: 21.6px;
+                                }
+                                .value-name {
+                                    font-size: 18px;
+                                }
+                                .book-detail {
+                                    font-size: 16.2px;
+                                    margin: 0;
+                                }
+                                .user-name {
+                                    font-size: 18px;
+                                    margin: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+} */

@@ -1,0 +1,35 @@
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+.profile-img img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 180%;
+}
+.name-profile
+{
+    margin-top: 0.3em;
+    margin-bottom: 0;
+    color: #000;
+    font-family: Manrope;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.point-exchange
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.2em;
+    margin-top: 0.5em;
+    font-size: 20px;
+}

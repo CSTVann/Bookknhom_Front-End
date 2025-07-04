@@ -1,0 +1,65 @@
+/* Tablet View */
+@media screen and (max-width: 1024px) {
+    .ul-container {
+        padding: 1.5rem;
+    }
+    
+    .ul-container-image-form {
+        gap: 2rem;
+    }
+    
+    .ul-container-image {
+        min-width: 250px;
+    }
+}
+
+/* Small Tablet View */
+@media screen and (max-width: 768px) {
+    .ul-container-image-form {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .ul-container-image, 
+    .ul-container-form {
+        width: 100%;
+    }
+    
+    .ul-warning {
+        height: 350px;
+    }
+}
+
+/* Mobile View */
+@media screen and (max-width: 480px) {
+    .ul-container {
+        padding: 1rem;
+    }
+    
+    .ul-profile-text {
+        font-size: 1.25rem;
+    }
+    
+    .ul-warning {
+        height: 250px;
+    }
+    
+    .ul-container-form-input {
+        gap: 0.3rem;
+    }
+    
+    .ul-container-form-input input,
+    .ul-container-form-input textarea,
+    .ul-container-form-input .select {
+        padding: 0.6rem 0.8rem;
+    }
+    
+    .container-button {
+        justify-content: center;
+    }
+    
+    .upload {
+        width: 100%;
+        padding: 0.7rem 1rem;
+    }
+}

@@ -1,0 +1,159 @@
+.carousel2 {
+    margin: 0 10%;
+    margin-bottom: 3%;
+    * {
+      font-family: Manrope;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .carousel-title {
+      margin-top: 4%;
+      margin-bottom: 1%;
+      margin-left: 5%;
+      font-size: 35px;
+      font-weight: 700;
+    }
+
+    .bi-chevron-left, .bi-chevron-right {
+      display: none;
+    }
+
+    .swape-left, .swape-right {
+      display: flex;
+      align-items: center;
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+  
+    .carousel-container {
+      display: flex;
+      .carousel-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+      }
+  
+      .card-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        height: 47vh;
+        flex-wrap: nowrap;
+        overflow: hidden;
+        width: 80%;
+  
+        .link-item {
+          cursor: pointer;
+          text-decoration: none;
+          
+          .card {
+            border-radius: 4px;
+            border: 1px solid rgba(9, 9, 55, 0.10);
+            background-color: #F4F4FF;
+            padding: 20px 30px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+          }
+          .book-details {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+          .image-card {
+            width: 10vw;
+            padding-top: 20px;
+            height: 30vh; /* Fixed height for the image */
+            object-fit: cover; /* Maintain aspect ratio and cover the area */
+            border-radius: 4px;
+          }
+  
+          .name-book {
+            margin-top: 10px;
+            color: #090937;
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 20px;
+          }
+          .dsjff {
+            display: flex;
+            justify-content: start;
+          }
+          .flex-row {
+            display: flex;
+            width: 100%;
+  
+            .author-book {
+              color: rgba(9, 9, 55, 0.60);
+              font-size: 12px;
+              font-weight: 600;
+              width: 100%;
+            }
+  
+            
+          }
+          .flex-end {
+            display: flex;
+            justify-content: end;
+            .price-book {
+              position: absolute;
+
+              color: #6251DD;
+              font-size: 18px;
+              font-weight: 700;
+            }
+          }
+        }
+      }
+    }
+  
+    .indicator {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 1103px) {
+    .card-container {
+      height: 30vh;
+    }
+  }
+  
+  @media (max-width: 879px) {
+    .carousel {
+      margin: 0 5% 3% 5%!important;
+      .bi-chevron-left, .bi-chevron-right {
+        display: inline;
+      }
+      .swape-left-btn, .swape-right-btn { 
+        display: none;
+      }
+    }
+    .card-container .card {
+      width: calc(66.66% - 15px); /* 3 cards per row */
+    }
+  }
+  
+  @media (max-width: 654px) {
+    .carousel {
+      margin: 0 0 3% 0!important;
+      .bi-chevron-left, .bi-chevron-right {
+        display: inline;
+      }
+      .swape-left-btn, .swape-right-btn { 
+        display: none;
+      }
+    }
+    .card-container {
+      .card {
+        width: calc(70% - 15px); /* 2 cards per row */
+      }
+    }
+  }
+  

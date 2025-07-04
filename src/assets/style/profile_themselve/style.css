@@ -1,0 +1,138 @@
+.pt-container {
+    width: 100%;
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: Manrope;
+    }
+    .pt-profile {
+        text-align: center;
+        font-size: 30px; 
+    }
+    .pt-container-profile {
+        display: flex;
+        margin: 50px 10% 0 10%;
+        .pt-profileimage {
+            border-radius: 100%;
+            width: 15vw;
+            height: 27vh;
+            margin-right: 4%;
+        }
+        .pt-n {
+            width: 100%;
+            .pt-profilename-and-button {
+                .pt-profilename {
+                    font-size: 40px;
+                }
+                .pt-button-container {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: end;
+                    gap: 20px;
+                    margin-top: -5%;
+                    .pt-button {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 15px;
+                        text-decoration: none;
+                        border: 1px solid #6251DD;
+                        width: 200px;
+                        height: 50px;
+                        font-weight: 600;
+                        border-radius: 10px;
+                    }
+                    .pt-btn {
+                        color: #6251DD;
+                    }
+                    .pt-btn:hover {
+                        background-color: #6251DD;
+                        color: white;
+                    }
+                    .pt-button-upload {
+                        background-color: #6251DD;
+                        color: white;
+                    }
+                    .pt-button-upload:hover {
+                        background-color: white;
+                        color: #6251DD;
+                    }
+                    .logout {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 15px;
+                        text-decoration: none;
+                        border: 1px solid rgb(245, 27, 27);
+                        background-color: rgb(245, 27, 27);
+                        color: white;
+                        width: 200px;
+                        height: 50px;
+                        font-weight: 600;
+                        border-radius: 10px;
+                    }
+                    .logout:hover {
+                        background-color: white;
+                        color: rgb(245, 27, 27);
+                    }
+                }
+            }
+            .pt-nnnnn {
+                margin-top: -150px;
+                .pt-image-point {
+                    display: flex;
+                    gap: 10px;
+                    .pt-image {
+                        width: 30px;
+                        height: 30px;
+                    }
+                    .pt-exchange {
+                        font-size: 20px;
+                    }
+                }
+                .pt-info {
+                    .p1, span {
+                        font-size: 20px;
+                        padding: 10px 0;
+                    }
+                    .pt-space3, p {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:1024px) {
+    .pt-button-container {
+        display: none!important;
+    }
+    .pt-nnnnn {
+        margin-top: 0!important;
+    }
+
+    .pt-container-profile {
+        flex-direction: column!important;
+        align-items: center;
+        .pt-profileimage {
+            margin: 0!important;
+        }
+        .pt-profilename {
+            display: flex!important;
+            justify-content: center;
+            align-items: center!important;
+            font-size:25px!important;
+        }
+        .pt-info {
+            display: flex!important;
+            flex-direction: column!important;
+            align-items: center!important;
+            padding: 0!important;
+            p, span {
+                font-size: 15px!important;
+            }
+        }
+    }
+
+}

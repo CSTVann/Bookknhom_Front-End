@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
+
+.edit-profile {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Manrope', sans-serif;
+}
+
+.edit-container-text {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.edit-container-text svg {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.edit-container-text svg:hover {
+    transform: translateX(-4px);
+}
+
+.edit-text {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.form-edit-container {
+    display: flex;
+    gap: 3rem;
+    align-items: flex-start;
+}
+
+.profile-image-container {
+    flex-shrink: 0;
+    width: 300px;
+    position: relative;
+}
+
+.profile-image {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    background-color: #F4F4FF;
+}
+
+.image-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 0.875rem;
+    padding: 0.75rem;
+    text-align: center;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.profile-image-container:hover .image-overlay {
+    opacity: 1;
+}
+
+.edit-container-form {
+    flex: 1;
+    max-width: 600px;
+}
+
+.edit-form-group {
+    margin-bottom: 1.5rem;
+}
+
+.edit-form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #555;
+}
+
+.edit-form-group input {
+    width: 100%;
+    padding: 0.875rem 1rem;
+    background-color: #F4F4FF;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1rem;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.edit-form-group input:focus {
+    outline: none;
+    border-color: #EF6B4A;
+    box-shadow: 0 0 0 3px rgba(239, 107, 74, 0.15);
+}
+
+.edit-form-group input[readonly] {
+    background-color: #f8f8fb;
+    color: #888;
+    cursor: not-allowed;
+}
+
+.password-section {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #eee;
+}
+
+.password-section-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+    color: #444;
+}
+
+.save-change {
+    background-color: #EF6B4A;
+    border: none;
+    color: white;
+    padding: 0.875rem 2rem;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+    margin-top: 1rem;
+    font-family: 'Manrope', sans-serif;
+}
+
+.save-change:hover {
+    background-color: #e55a37;
+}
+
+.save-change:active {
+    transform: scale(0.98);
+}

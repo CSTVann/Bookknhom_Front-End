@@ -1,0 +1,64 @@
+@media screen and (max-width: 850px) {
+    .container {
+        padding: 20px 15px;
+    }
+
+    .container-nested {
+        max-width: 380px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .container {
+        align-items: flex-start;
+        padding-top: 80px;
+    }
+    
+    .container-nested {
+        max-width: 300px;
+    }
+    
+    .nest-letter
+    {
+        width: 100%;
+    }
+    
+    .logo
+    {
+        width: 70px;
+        height: 50px
+    }
+    
+    .nest-letter h6{
+        font-size: 15px;
+    }
+    
+    .nest-letter h5{
+        font-size: 20px;
+    }
+    
+    .container-form-input div p 
+    {
+        font-size: 12px;
+    }
+    
+    .password-box, .email-box
+    {
+        width: 100%;
+    }
+    
+    .container-form-input
+    {
+        width: 100%;
+    }
+    
+    .nest-button button, .nest-button a, .sign-in-with-gg
+    {
+        width: 100% !important;
+    }
+    
+    .nest-button{
+        padding-top: 1em;
+        width: 100%;
+    }
+}

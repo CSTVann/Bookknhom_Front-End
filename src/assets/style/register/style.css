@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.container-nested
+{
+    width: 50%;
+    float: right;
+    height: 100vh;
+    display: contents;
+
+}
+
+
+
+
+
+.container-form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.container-form-input
+{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1em;
+    gap: 1em;
+}
+.nest-letter
+{
+    gap: 5em;
+    padding-top: 1em;
+    font-family: Manrope;
+    width: 350px;
+}
+
+.nest-letter h6
+{
+    color: rgba(9, 9, 55, 0.60);
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.nest-letter h5
+{
+    color: #090937;
+    font-family: Manrope;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.nest-email p
+{
+    padding-bottom: 0.3em;
+}
+.nest-email input{
+    padding-left: 1em;
+    font-size: 15px;
+}
+.nest-password input{
+    padding-left: 1em;
+    font-size: 15px;
+}
+
+.email-box
+{
+    width: 350px;
+    height: 50px;
+    background-color: #F4F4FF;
+    border-radius: 3px;
+    border: #F4F4FF;
+}
+
+.password-box
+{
+    height: 50px;
+    background-color: #F4F4FF;
+    border-radius: 3px;
+    border: #F4F4FF;
+    width: 350px;
+
+}
+.nest-password p
+{
+    padding-bottom: 0.3em;
+}
+.email-box:focus-visible{
+    outline: 2px solid #6251DD;
+}
+.password-box:focus-visible{
+    outline: 2px solid #6251DD;
+}
+.nest-button
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-top: 1em;
+}
+.nest-button .login, .register
+{
+    height: 50px;
+}
+.register
+{
+    background-color: #EF6B4A;
+    font-size: 15px;
+    color: #ffff;
+    border: #EF6B4A;
+}
+.login
+{
+    border: 1px solid #6251DD;
+    color: #6251DD;
+    font-size: 15px;
+    background-color: #ffff;
+}
+.title
+{
+    color: #FF2626;
+    font-family: Manrope;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 1em;
+}
+.nest-button .login 
+{
+    width: 365px;
+}
+
+.nest-button .login:hover
+{
+    background-color: #6251DD;
+    color: #F4F4FF;
+}
+.nest-button .register:hover
+{
+    background-color: #ffffff;
+    border: 1px solid #EF6B4A;
+    color: #EF6B4A;
+}

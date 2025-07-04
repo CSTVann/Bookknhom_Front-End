@@ -1,0 +1,180 @@
+.all-container {
+    padding-left: 2em;
+    padding-right: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin: 0 8%;
+    *{
+        margin: 0;
+    }
+    .back-container
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        column-gap: 0.5em;
+        
+    }
+    .back-text
+    {
+        color: #090937;
+        font-family: Manrope;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .custom-link
+    {
+        text-decoration: none;
+    }
+    .book-img img
+    {
+        width: 20em;
+        height: 30em;
+        border-radius: 4px;
+        object-fit: cover;
+    }
+    .book-img
+    {
+        background-color: #F4F4FF;
+        border: 1px solid rgba(9, 9, 55, 0.10);
+        border-radius: 4px;
+        width: 23em;
+        height: 33em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .no-image-placeholder {
+        width: 20em;
+        height: 30em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #F4F4FF;
+        color: #090937;
+        font-size: 16px;
+        font-weight: 500;
+        border: 1px dashed #CDCDD4;
+        border-radius: 4px;
+    }
+
+    .container-img-detail
+    {
+        display: flex;
+        flex-direction: row;
+        margin-top: 3%;
+    }
+    .book-name
+    {
+        color: #000;
+        font-family: Manrope;
+        font-size: 40px;
+        font-weight: 600;
+        margin: 0 !important;
+    }
+    .book-category
+    {
+        color: rgba(0, 0, 0, 0.60);
+        font-family: Manrope;
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0 !important;
+
+    }
+    .owner-edit-btn {
+        width: 100%;
+        display: flex;
+        gap: 30px;
+        margin-bottom: -30px;
+        justify-content: end;
+        .bi {
+            font-size: 30px;
+        }
+    }
+    .owner-delete-btn {
+        background-color: #fff;
+        cursor: pointer;
+        border: 0;
+
+    }
+
+    .book-author
+    {
+        color: rgba(0, 0, 0, 0.60);
+        font-family: Manrope;
+        font-size: 18px;
+        margin: 20px 0 0 0!important;
+
+    }
+    .book-price
+    {
+        color: rgba(0, 0, 0, 0.60);
+        font-family: Manrope;
+        font-size: 18px;
+        margin: 4px 0 0 0!important;
+    }
+    .nest-detail
+    {
+        padding-left: 2em;
+        padding-right: 2em;
+        padding-top: 0;
+    }
+    .request-exchange
+    {
+        height: 50px;
+        width: 300px;
+        color: #FFFF;
+        border: 1px solid #EF6B4A;
+        background-color: #EF6B4A;
+        margin-top: 1em;
+        float: right;
+        font-size: 15px;
+        font-family: Manrope;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+    .request-exchange:hover 
+    {
+        background-color: #f73a0a;
+    }
+    .book-description
+    {
+        font-size: 20px;
+        margin-top: 2em;
+        width: 50vw;
+    }
+    .book-description-detail
+    {
+        color: rgba(9, 9, 55, 0.60);
+        text-align: justify;
+        font-family: Manrope;
+        font-size: 20px;
+    }
+    .break-line
+    {
+        width: 40em;
+        height: 3px;
+        border-radius: 180px;
+        background: rgba(126, 126, 150, 0.50);
+    }
+    .fb-share-button {
+        height: 45px;
+        width: 200px;
+        color: #FFFF;
+        border: 1px solid #EF6B4A;
+        background-color: #EF6B4A;
+        margin-top: 1.2em;
+        margin-left: 2em;
+        float: right;
+        font-size: 15px;
+        font-family: Manrope;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+}

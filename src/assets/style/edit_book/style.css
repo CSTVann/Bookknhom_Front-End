@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+}
+.all-container
+{
+    padding-left: 2em;
+    padding-right: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin: 0 8%;
+}
+.back-container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 0.5em;
+    
+}
+.eb-container-name
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.eb-emoji-trash
+{
+    cursor: pointer;
+}
+.back-text
+{
+    color: #090937;
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.custom-link
+{
+    text-decoration: none;
+}
+.book-img img
+{
+    width: 20em;
+    height: 30em;
+    border-radius: 4px;
+}
+.book-img
+{
+    background-color: #F4F4FF;
+    border: 1px solid rgba(9, 9, 55, 0.10);
+    border-radius: 4px;
+    width: 23em;
+    height: 33em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-img-detail
+{
+    display: flex;
+    flex-direction: row;
+}
+.book-name
+{
+    color: #000;
+    font-family: Manrope;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0 !important;
+}
+.book-author
+{
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Manrope;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    margin: 9px 0 0 0!important;
+
+}
+.nest-detail
+{
+    padding-left: 2em;
+    padding-right: 0;
+    padding-top: 0;
+}
+.book-price
+{
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Manrope;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    margin: 10px 0 0 0!important;
+}
+.request-container
+{
+    display: flex;
+    float: right;
+    gap: 1em;
+}
+.request-exchange
+{
+    height: 50px;
+    width: 200px;
+    color: #FFFF;
+    border: 1px solid #EF6B4A;
+    background-color: #EF6B4A;
+    margin-top: 1em;
+    float: right;
+    font-size: 15px;
+    font-family: Manrope;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.request-exchange:hover 
+{
+    background-color: #f73a0a;
+}
+.book-description
+{
+    font-size: 20px;
+    margin-top: 2em;
+}
+.book-description-detail
+{
+    color: rgba(9, 9, 55, 0.60);
+    text-align: justify;
+    font-family: Manrope;
+    font-size: 20px;
+}
+.break-line
+{
+    width: 40em;
+    height: 3px;
+    border-radius: 180px;
+    background: rgba(126, 126, 150, 0.50);
+}

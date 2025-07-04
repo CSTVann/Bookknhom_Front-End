@@ -1,0 +1,138 @@
+.ul-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Manrope', sans-serif;
+    color: #333;
+}
+
+.ul-backtoprofile {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+}
+
+.ul-backtoprofile svg {
+    transition: transform 0.2s;
+}
+
+.ul-backtoprofile:hover svg {
+    transform: translateX(-3px);
+}
+
+.ul-profile-text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #090937;
+}
+
+.ul-container-image-form {
+    display: flex;
+    gap: 3rem;
+}
+
+.ul-container-image {
+    width: 30%;
+    min-width: 300px;
+}
+
+.ul-warning {
+    width: 100%;
+    height: 450px;
+    background-color: #F4F4FF;
+    border-radius: 15px;
+    border: 2px dashed #CDCDD4;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.2s ease;
+    padding: 0;
+    cursor: pointer;
+}
+
+.ul-warning:hover {
+    background-color: #e8e8ff;
+    border-color: #b6b6f9;
+}
+
+.ul-warning input[type="file"] {
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: scale(60);
+    opacity: 0;
+}
+
+.ul-container-form {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.ul-container-form-input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.5rem;
+}
+
+.ul-container-form-input p {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #090937;
+    margin: 0;
+}
+
+.ul-container-form-input input,
+.ul-container-form-input textarea,
+.ul-container-form-input .select {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: 'Manrope', sans-serif;
+    transition: border-color 0.2s;
+}
+
+.ul-container-form-input input:focus,
+.ul-container-form-input textarea:focus,
+.ul-container-form-input .select:focus {
+    outline: none;
+    border-color: #EF6B4A;
+    box-shadow: 0 0 0 2px rgba(239, 107, 74, 0.2);
+}
+
+.ul-container-form-input textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.container-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.upload {
+    cursor: pointer;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    padding: 0.75rem 2rem;
+    border-radius: 8px;
+    background-color: #EF6B4A;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.upload:hover {
+    background-color: #e55a37;
+}
+
+.upload:active {
+    transform: scale(0.98);
+}

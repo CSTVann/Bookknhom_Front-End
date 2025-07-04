@@ -1,0 +1,236 @@
+/* Mobile devices - under 768px */
+@media screen and (max-width: 767px) {
+  .admin-page-content {
+    margin-left: 0;
+    padding: 10px;
+  }
+  
+  .admin-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .dashboard-stats {
+    grid-template-columns: 1fr;
+  }
+  
+  .stat-card {
+    width: 100%;
+  }
+  
+  /* Make table scroll horizontally and improve visibility of action buttons */
+  .admin-table-container {
+    overflow-x: auto;
+    max-width: 100%;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .admin-table {
+    min-width: 100%;
+  }
+  
+  .admin-table-head, 
+  .admin-table-row {
+    min-width: 900px;
+  }
+  
+  /* Fix cell widths to prioritize action buttons */
+  .table-cell.cell-actions {
+    position: sticky;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 2;
+    border-left: 1px solid #e9ecef;
+    min-width: 100px;
+    width: 100px;
+  }
+  
+  /* Keep add new button visible */
+  .admin-actions {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .create-new-btn {
+    width: 100%;
+    justify-content: center;
+    height: 40px;
+  }
+  
+  /* Fix other table issues */
+  .container-head-admin,
+  .container-body-admin {
+    font-size: 10px;
+    overflow-x: auto;
+  }
+  
+  .admin-id {
+    min-width: 800px; /* Ensures content doesn't collapse too much */
+  }
+  
+  .for-admin-image {
+    width: 50px;
+    min-width: 50px;
+    max-height: 50px;
+  }
+  
+  .book-cover,
+  .no-image-placeholder {
+    height: 50px;
+    max-height: 50px;
+  }
+  
+  .admin-edit-delete {
+    width: 30px;
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: 4px;
+  }
+  
+  .action-btn {
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+  }
+  
+  .container-body-admin {
+    height: auto;
+    min-height: 8vh;
+  }
+  
+  .container-author {
+    margin-left: 0;
+    padding: 10px;
+  }
+  
+  .container-head-author, 
+  .container-head-authors {
+    grid-template-columns: 60px 1fr auto;
+  }
+  
+  .container-suggestbook,
+  .container-suggestbookS {
+    overflow-x: auto;
+    padding-right: 1em;
+  }
+  
+  .container-edit-delete-admin {
+    position: sticky;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 5px;
+    z-index: 2;
+  }
+  
+  /* Improve description cell on mobile */
+  .cell-description {
+    max-width: 150px;
+    min-width: 100px;
+  }
+  
+  .description-preview {
+    -webkit-line-clamp: 1;
+    max-height: 21px;
+  }
+  
+  .description-tooltip {
+    width: 200px;
+    left: -50px;
+  }
+}
+
+/* Tablets - 768px to 1024px */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .admin-page-content {
+    margin-left: 180px;
+    padding: 15px;
+  }
+  
+  .dashboard-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .admin-table-container {
+    overflow-x: auto;
+    max-width: 100%;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .admin-table-head, 
+  .admin-table-row {
+    min-width: 900px;
+  }
+  
+  /* Fix cell widths to prioritize action buttons */
+  .table-cell.cell-actions {
+    position: sticky;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 2;
+    border-left: 1px solid #e9ecef;
+  }
+  
+  .for-admin-image {
+    width: 60px;
+    min-width: 60px;
+    max-height: 55px;
+  }
+  
+  .book-cover,
+  .no-image-placeholder {
+    height: 55px;
+    max-height: 55px;
+  }
+  
+  .container-body-admin {
+    height: auto;
+    min-height: 9vh;
+  }
+  
+  .container-author {
+    margin-left: 180px;
+    padding: 15px;
+  }
+  
+  .container-edit-delete-admin {
+    position: sticky;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 5px;
+    z-index: 2;
+  }
+  
+  /* Improve description cell on tablets */
+  .cell-description {
+    max-width: 200px;
+  }
+}
+
+/* Ensure no horizontal scrolling on larger screens */
+@media screen and (min-width: 1025px) {
+  .admin-id {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .admin-table-head, 
+  .admin-table-row {
+    width: 100%;
+    min-width: auto;
+  }
+}
+
+/* When sidebar is collapsed */
+@media screen and (max-width: 991px) {
+  .sidebar-collapsed .admin-page-content {
+    margin-left: 60px;
+  }
+  
+  .sidebar-collapsed .container-author {
+    margin-left: 60px;
+  }
+}

@@ -1,0 +1,44 @@
+
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+    .profile-img img
+    {
+        width: 150px;
+        height: 150px;
+    }
+    .name-profile
+    {
+        font-size: 30px;
+    }
+    .point-exchange
+    {
+        font-size: 15px;
+    }
+    .point-exchange svg
+    {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .profile-img img
+    {
+        width: 150px;
+        height: 150px;
+    }
+    .name-profile
+    {
+        font-size: 30px;
+    }
+    .point-exchange
+    {
+        font-size: 15px;
+    }
+    .point-exchange svg
+    {
+        width: 15px;
+        height: 15px;
+    }
+}
+

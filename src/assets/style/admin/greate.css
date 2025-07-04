@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
+
+.container-create-4admin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Manrope', sans-serif;
+  margin: 2rem auto;
+  max-width: 1200px;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.container-create-4admin h2 {
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.container-form-create-4admin {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  width: 100%;
+}
+
+.container-first-form {
+  flex: 1;
+  min-width: 300px;
+}
+
+.every-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.2rem;
+}
+
+.every-form label {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.every-form input, 
+.every-form textarea, 
+.every-form select {
+  border: 1px solid #e0e0e0;
+  background-color: #F4F4FF;
+  padding: 0.8rem 1rem;
+  border-radius: 6px;
+  font-family: 'Manrope', sans-serif;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.every-form input:focus, 
+.every-form textarea:focus, 
+.every-form select:focus {
+  outline: none;
+  border-color: #6251DD;
+  box-shadow: 0 0 0 2px rgba(98, 81, 221, 0.1);
+}
+
+.every-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.image-upload-container {
+  border: 2px dashed #e0e0e0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #f9f9ff;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.image-upload-container:hover {
+  border-color: #6251DD;
+  background-color: #f4f4ff;
+}
+
+.image-upload-container i {
+  font-size: 2rem;
+  color: #6251DD;
+  margin-bottom: 0.5rem;
+}
+
+.image-upload-text {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.image-preview {
+  margin-top: 1rem;
+  max-width: 100%;
+  max-height: 150px;
+  border-radius: 6px;
+  object-fit: contain;
+}
+
+.create-button-submit {
+  margin-top: 1rem;
+}
+
+.create-button-submit button {
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #6251DD;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+  box-shadow: 0 2px 6px rgba(98, 81, 221, 0.3);
+}
+
+.create-button-submit button:hover {
+  background-color: #5344c9;
+}
+
+.create-button-submit button:active {
+  transform: translateY(1px);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .container-form-create-4admin {
+    flex-direction: column;
+    gap: 0;
+  }
+  
+  .container-first-form {
+    width: 100%;
+  }
+  
+  .container-create-4admin {
+    padding: 1.5rem;
+    margin: 1rem;
+  }
+}

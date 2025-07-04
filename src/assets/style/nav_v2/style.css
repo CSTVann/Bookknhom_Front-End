@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.navbar_v2 {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    margin-bottom: 30px;
+    * {
+        font-family: Manrope;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        background-color: var(--secondary-color);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        .navbar-brand {
+            .logo {
+                width: 50px;
+                height: 50px;
+            }
+        }
+        .search-container {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            padding: 0 5vw;
+            .search {
+                background-color: #F4F4FF;
+                border: none;
+                width: 75%;
+                height: 40px;
+                padding-left: 50px;
+                /* background-image: url("../../image/search.svg"); */
+                background-repeat: no-repeat;
+                background-position: 15px;
+                border-radius: 5px 0 0 5px;
+                font-size: 17px;
+                outline: none;
+            }
+            .search-type{
+                width: 120px;
+                background-color: #F4F4FF;
+                height: 42px;
+                border:0;
+                appearance: none;
+                /* background-image: url("../../image/chevron-down.svg"); */
+                background-repeat: no-repeat;
+                background-position: 85px;
+                background-size: 15px;
+                border-radius: 0 5px 5px 0;
+            }
+            .search-for{
+                display: flex;
+                width: 80px;
+                height: 42px;
+                font-size: 12px;
+                color: #717171;
+                background-color: #F4F4FF;
+                align-items: center;
+            }
+        }
+        .navbar-nav {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            li {
+                margin: 0 0.3rem;
+                .bi {
+                    background-color: #F4F4FF;
+                    padding: 12px;
+                    border-radius: 5px;
+                }
+                a {
+                    align-items: center;
+                    text-decoration: none;
+                    color: var(--link-color);
+                    transition: color 0.3s;
+                    .icon-text {
+                        margin-left: 5px;
+                        display: none;
+                    }
+
+                }
+                a:hover {
+                    color: var(--primary-color);
+                }
+            }
+            .item-none {
+                display: none;
+            }
+        }
+    }
+    .search-button-menu
+{
+    display: flex;
+    flex-direction: row;
+    height: 42px;
+    border: none !important; 
+}
+    .dropdown-button-menu
+    {
+        display: flex;
+        flex-direction: row-reverse;
+        cursor: pointer;
+        font-size: 10px;
+        .dropdown-menu
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+        }
+        button{
+            cursor: pointer;
+        }
+    }
+    .dropdown-item
+    {
+        position: relative;
+        background-color: #F4F4FF;
+        width: 7vw;
+        height: 4vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 100;
+    }
+    .dropdown-item1:hover
+    {
+        background-color: #6251DD;
+        color: #F4F4FF;
+    }
+    .dropdown-item2:hover{
+        background-color: #6251DD;
+        color: #F4F4FF;
+    }
+    .dropdown-item3:hover{
+        background-color: #6251DD;
+        color: #F4F4FF;
+    }
+}
+
+.navbar-toggler {
+    display: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: black;
+}
+  
+@media (max-width: 1024px) {
+    .navbar_v2 {
+        .navbar-nav {
+            position: fixed;
+            background-color: white!important;
+            top: 80px;
+            right: -100%;
+            height: 100%!important;
+            width: 150px;
+            background-color: var(--secondary-color);
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+            transition: right 0.3s ease-in-out;
+            li {
+                margin: 0.5rem 0!important;
+                .bi {
+                    background: none!important;
+                }
+                a {
+                    gap: 5px;
+                    display: flex;
+                    color: var(--link-color);
+                    .icon-text {
+                        margin-left: 5px;
+                        display: flex!important;
+                    }
+                }
+            }
+            .item-none {
+                display: flex!important;
+                gap: 10px;
+            }
+          }
+        
+          .navbar-nav.active {
+            right: 0;
+          }
+        
+          .navbar-toggler {
+            display: block;
+          }
+
+    }
+    
+}
+
+@media (max-width: 668px) {
+    .navbar_v2 {
+        .search-for {
+            display: none!important;
+        }
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 568px) {
+    .navbar_v2 {
+        .logo {
+            width: 30px!important;
+            height: 30px!important;
+        }
+        .search {
+            height: 25px!important;
+            padding-left: 40px!important;
+            background-size: 13px!important;
+            font-size: 13px!important;
+            margin-left: 5%!important;
+        }
+        .menu-button {
+            margin-right: 5%!important;
+            height: 25px!important;
+            width: 32px!important;
+            .MuiSvgIcon-root {
+                width: 15px!important;
+                height: 15px!important;
+            }
+        }
+    }
+}

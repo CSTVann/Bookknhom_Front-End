@@ -1,0 +1,361 @@
+/* For smartphones in portrait mode (320px and below) */
+@media only screen and (max-width: 320px) {
+  .all-container
+  {
+    padding-left: 0em;
+    padding-right: 0em;
+  }
+  .container-img-detail
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-img-detail
+  {
+    margin-top: 1em;
+  }
+  .back-container
+  {
+    margin-left: 1em;
+  }
+  .back-container svg
+  {
+    width: 9px;
+    height: 40px;
+  }
+  .back-text
+  {
+    font-size: 19px;
+  }
+  .book-img
+  {
+      width: 12.88em;
+      height: 18.48em;
+  }
+  .book-img img
+  {
+      width: 11.2em;
+      height: 16.8em;
+      border-radius: 4px;
+      object-fit: cover;
+  }
+  .no-image-placeholder {
+      width: 11.2em;
+      height: 16.8em;
+      font-size: 12px;
+  }
+  .nest-detail
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .book-name
+  {
+    padding-top: 1em;
+    font-size: 19px;
+  }
+  .book-author
+  {
+    font-size: 15px;
+  }
+  .book-price
+  {
+    font-size: 11.5px;
+  }
+  .book-description
+  {
+    font-size: 18px;
+    margin-top: 1em;
+  }
+  .book-description-detail
+  {
+    font-size: 11.5px;
+  }
+  .break-line
+  {
+    width: 12em;
+  }
+  .mest-info-detail
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .request-container
+  {
+    display: flex;
+    justify-content: center;
+  }
+  .request-exchange
+  {
+    height: 25px;
+    width: 120px;
+    font-size: 8px;
+  }
+    /* Adjustments for smartphones */
+  }
+  
+/* For larger smartphones and smaller tablets in portrait mode (up to 480px) */
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+/* Adjustments for larger smartphones and smaller tablets */
+.all-container
+  {
+    padding-left: 0em;
+    padding-right: 0em;
+  }
+  .container-img-detail
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-img-detail
+  {
+    margin-top: 1em;
+  }
+  .back-container
+  {
+    margin-left: 1em;
+  }
+  .back-container svg
+  {
+    width: 9px;
+    height: 40px;
+  }
+  .back-text
+  {
+    font-size: 19px;
+  }
+  .book-img
+  {
+      width: 12.88em;
+      height: 18.48em;
+  }
+  .book-img img
+  {
+      width: 11.2em;
+      height: 16.8em;
+      border-radius: 4px;
+      object-fit: cover;
+  }
+  .no-image-placeholder {
+      width: 11.2em;
+      height: 16.8em;
+      font-size: 12px;
+  }
+  .nest-detail
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .book-name
+  {
+    padding-top: 1em;
+    font-size: 19px;
+  }
+  .book-author
+  {
+    font-size: 15px;
+  }
+  .book-price
+  {
+    font-size: 11.5px;
+  }
+  .book-description
+  {
+    font-size: 15px;
+    margin-top: 1em;
+  }
+  .book-description-detail
+  {
+    font-size: 11.5px;
+  }
+  .break-line
+  {
+    width: 12em;
+  }
+  .mest-info-detail
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .request-container
+  {
+    display: flex;
+    justify-content: center;
+  }
+  .request-exchange
+  {
+    height: 25px;
+    width: 120px;
+    font-size: 8px;
+  }
+}
+
+/* For most tablets in portrait mode and some laptops in landscape mode (up to 768px) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+/* Adjustments for tablets and some laptops */
+  .all-container
+  {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .container-img-detail
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .book-img
+  {
+      width: 18.4em;
+      height: 26.4em;
+  }
+  .book-img img
+  {
+      width: 16em;
+      height: 24em;
+      border-radius: 4px;
+      object-fit: cover;
+  }
+  .no-image-placeholder {
+      width: 16em;
+      height: 24em;
+      font-size: 14px;
+  }
+  .nest-detail
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .book-name
+  {
+    font-size: 27px;
+  }
+  .book-author
+  {
+    font-size: 18px;
+  }
+  .book-price
+  {
+    font-size: 15px;
+  }
+  .book-description
+  {
+    font-size: 18px;
+    margin-top: 1em;
+  }
+  .book-description-detail
+  {
+    font-size: 15px;
+  }
+  .break-line
+  {
+    width: 18em;
+  }
+  .mest-info-detail
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .request-container
+  {
+    display: flex;
+    justify-content: center;
+  }
+  .request-exchange
+  {
+    height: 30px;
+    width: 150px;
+    font-size: 10px;
+  }
+}
+/* For most laptops and desktops in landscape mode (up to 1024px) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+/* Adjustments for most laptops and desktops */
+.book-description-detail
+  {
+    font-size: 12px;
+  }
+  .book-name
+  {
+    font-size: 30px;
+  }
+  .book-author
+  {
+    font-size: 18px;
+  }
+  .book-price
+  {
+    font-size: 9px;
+  }
+  .book-description
+  {
+    font-size: 15px;
+  }
+  .book-img img
+  {
+    width: 17em;
+    height: 26em;
+    border-radius: 4px;
+    object-fit: cover;
+  }
+  .no-image-placeholder {
+    width: 17em;
+    height: 26em;
+    font-size: 15px;
+  }
+  .book-img
+  {
+      width: 19em;
+      height: 28em;
+  }
+  .request-exchange
+  {
+    height: 40px;
+    width: 200px;
+    font-size: 13px;
+  }
+}
+
+/* For larger desktops and monitors in landscape mode (up to 1280px) */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  .book-description-detail
+  {
+    font-size: 17px;
+  }
+  .book-name
+  {
+    font-size: 35px;
+  }
+  .book-author
+  {
+    font-size: 22px;
+  }
+  .book-price
+  {
+    font-size: 12px;
+  }
+  .book-description
+  {
+    font-size: 18px;
+  }
+/* Adjustments for larger desktops and monitors */
+}
+
+/* Additional media queries and adjustments can be added as needed */

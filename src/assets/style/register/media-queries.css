@@ -1,0 +1,71 @@
+@media screen and (max-width: 850px) {
+
+    .container-form
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 6em;
+        margin-bottom: 8em;
+    }
+    .container-nested
+    {
+        
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .container-form
+    {
+        margin-top: 3em;
+    }
+    .nest-button .login 
+    {
+        width: 275px;
+    }   
+    .nest-letter
+    {
+        width: 80%;
+    }
+    .logo
+    {
+        width: 70px;
+        height: 50px
+    }
+    .nest-letter h6{
+        font-size: 15px;
+    }
+    .nest-letter h5{
+        font-size: 20px;
+    }
+    .container-form-input div p 
+    {
+        font-size: 12px;
+    }
+    .password-box, .email-box
+    {
+        width: 260px;
+    }
+    .container-form-input
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+    .nest-button button 
+    {
+        width: 275px;
+
+    }
+    .nest-button{
+        padding-top: 1em;
+    }
+    
+}

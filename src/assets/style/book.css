@@ -1,0 +1,78 @@
+.box {
+  height: 20em;
+  width: 17em;
+}
+
+.box .card-book {
+  height: 20em;
+  left : 0;
+  position: fixed;
+  top: 0;
+  width: 17em;
+}
+
+.box .overlap {
+  background-color: #f4f4ff;
+  border-radius: 0.313rem;
+  height: 31.5rem;
+  position: relative;
+  width: 18.75rem;
+
+}
+
+.box .picture {
+  height: 21.5rem;
+  left: 1.25rem;
+  position: absolute;
+  top: 1.5em;
+  width: 259px;
+}
+
+.box .name {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 4px;
+  height: 61px;
+  justify-content: center;
+  left: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.box .profile {
+  height: 33px;
+  left: 20px;
+  position: absolute;
+  top: 457px;
+  width: 99px;
+}
+
+.box .svg {
+  height: 30px;
+  left: 0;
+  position: absolute;
+  top: 3px;
+  width: 29px;
+}
+
+.box .group {
+  height: 33px;
+  left: 36px;
+  position: absolute;
+  top: 0;
+  width: 65px;
+}
+
+.box .text-wrapper-2 {
+  color: #090937;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 12px;
+  font-weight: 500;
+  left: 1px;
+  letter-spacing: 0;
+  line-height: normal;
+}

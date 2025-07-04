@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+}
+
+.bi-chevron-left {
+    position: absolute;
+    font-size: 30px;
+    color: #6251DD;
+    top: 40px;
+    left: 30px;
+    z-index: 10;
+}
+
+.container-nested
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 450px;
+    padding: 20px;
+    font-family: Manrope;
+}
+
+.container-form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.container-form-input
+{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3em;
+    gap: 2em;
+}
+.nest-letter
+{
+    gap: 5em;
+    padding-top: 3em;
+    font-family: Manrope;
+    width: 350px;
+}
+
+.nest-letter h6
+{
+    color: rgba(9, 9, 55, 0.60);
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.nest-letter h5
+{
+    color: #090937;
+    font-family: Manrope;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.nest-email p
+{
+    padding-bottom: 0.7em;
+}
+.nest-email input{
+    padding-left: 1em;
+    font-size: 15px;
+}
+.nest-password input{
+    padding-left: 1em;
+    font-size: 15px;
+}
+
+.email-box
+{
+    width: 350px;
+    height: 50px;
+    background-color: #F4F4FF;
+    border-radius: 3px;
+    border: #F4F4FF;
+}
+
+.password-box
+{
+    height: 50px;
+    background-color: #F4F4FF;
+    border-radius: 3px;
+    border: #F4F4FF;
+    width: 350px;
+
+}
+.nest-password p
+{
+    padding-bottom: 0.7em;
+}
+.email-box:focus-visible{
+    outline: 2px solid #6251DD;
+}
+.password-box:focus-visible{
+    outline: 2px solid #6251DD;
+}
+.nest-button
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.nest-button button, .nest-button a
+{
+
+    width: 365px!important;
+    height: 50px;
+    font-size: 15px;
+    color: #ffff;
+    border: #EF6B4A;
+    background-color: #EF6B4A;
+}
+.nest-button .login
+{
+    background-color: #EF6B4A;
+    font-size: 15px;
+    color: #ffff;
+    border: #EF6B4A;
+    border-radius: 5px;
+}
+.nest-button .register
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid #6251DD;
+    color: #6251DD;
+    font-size: 15px;
+    background-color: #ffff;
+    border-radius: 5px;
+}
+
+
+.sign-in-with-gg {
+    width: 365px;
+    height: 50px;
+    border: 1px solid #6251DD;
+    background-color: #ffff;
+    background-image: url("../../image/google_icon.svg");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 10px;
+}
+
+.sign-in-with-gg:hover {
+    border-color: #EF6B4A;
+    color: #EF6B4A
+}

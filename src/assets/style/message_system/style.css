@@ -1,0 +1,19 @@
+*
+{
+    margin: 0;
+}
+.message-profile
+{
+    width: 50vh;
+    height: 100vh;
+    background-color: #F4F4FF;
+    padding: 5em 1em 0 1em;
+    display: flex;flex-direction: row;
+}
+
+.image-message-profile
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 180%;
+}

@@ -1,0 +1,97 @@
+.pt-container
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 5% 0 10%;
+    * {
+        font-family: Manrope;
+    }
+}
+.pt-profile
+{
+    font-size: 30px;  
+    margin: 0 0 1em 0;
+}
+.pt-container-profile
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 1em 0 1em;
+    gap: 10em;
+    margin-bottom: 3%;
+}
+.pt-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pt-profileimage
+{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    border: 3px solid #f0f0f0;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    margin-top: 0;
+}
+.pt-profilename
+{
+    font-size: 50px;
+    margin: 0;
+}
+.pt-profilename-and-button
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 40em;
+}
+.pt-button
+{
+    width: 180px;
+    height: 40px;
+    cursor: pointer;
+    border-color: solid 2px #384D6C;
+    color: #fff;
+    background-color: #384D6C;
+    border-radius: 8px;
+}
+.pt-button:hover
+{
+    background-color: #dedede;
+    color: #000;
+}
+.pt-image-point
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding-top: 0em;
+}
+.pt-exchange
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+.pt-info 
+{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.pt-space1
+{
+    padding-left: 25px;
+}
+.pt-space2
+{
+    padding-left: 20px;
+}
+.pt-pt-button
+{
+    padding-left: 120px;
+}

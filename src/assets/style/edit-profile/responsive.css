@@ -1,0 +1,72 @@
+/* Tablet Styles */
+@media screen and (max-width: 1024px) {
+    .edit-profile {
+        padding: 1.5rem;
+    }
+    
+    .profile-image-container {
+        width: 250px;
+    }
+}
+
+/* Small Tablet Styles */
+@media screen and (max-width: 768px) {
+    .form-edit-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    
+    .profile-image-container {
+        width: 200px;
+    }
+    
+    .edit-container-form {
+        width: 100%;
+    }
+    
+    .edit-text {
+        font-size: 1.5rem;
+    }
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 480px) {
+    .edit-profile {
+        padding: 1rem;
+    }
+    
+    .edit-container-text {
+        margin-bottom: 1.5rem;
+    }
+    
+    .edit-text {
+        font-size: 1.25rem;
+    }
+    
+    .profile-image-container {
+        width: 180px;
+    }
+    
+    .edit-form-group {
+        margin-bottom: 1rem;
+    }
+    
+    .edit-form-group input {
+        padding: 0.75rem;
+    }
+    
+    .save-change {
+        width: 100%;
+        padding: 0.75rem 1rem;
+    }
+    
+    .password-section {
+        margin-top: 1.5rem;
+        padding-top: 1rem;
+    }
+    
+    .password-section-title {
+        font-size: 1rem;
+    }
+}
