@@ -23,12 +23,14 @@ const Footer = () => {
                 </div>
                 <div className="developer">
                     <h3>Developer</h3>
+                    <p>Chhorn Sotheavann</p>
                     <p>Thouen Sothieliya</p>
                     <p>Cheaoun Raneth</p>
 
                 </div>
                 <div className="contact-us">
                     <h3>Contact Us</h3>
+                    <Link href="">sotheavannchhorn168@gmail.com</Link>
                     <Link href="">sothieliya@gmail.com</Link>
                     <Link href="">cheaounraneth@gmail.com</Link>
                 </div>
