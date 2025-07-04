@@ -27,7 +27,7 @@ const Home = () => {
         <meta name="twitter:title" content="SEO for Developers: 10 Best Practices to Know"/>
         <meta name="twitter:description" content="Using SEO best practices for web developers ensures more people see your site in search engines."/>
         <meta name="twitter:image" content="https://static.semrush.com/blog/uploads/media/53/82/5382a8d356a1848d5ec1dfaeb387f9db/a7ae53b9828c45f801ab5be8a0f4b030/seo-for-developers-sm.png"/>
-        <link rel="icon" type="image/svg+xml" href="/Logo.svg" />
+        <link rel="icon" type="image/svg+xml" href="/main_logo.svg" />
 
       </Head>
       <Navbar />
